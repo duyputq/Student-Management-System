@@ -59,9 +59,11 @@ Chương trình quản lý sinh viên đại học với các tính năng:
 ![pic9-email-hop-thu-den](https://github.com/user-attachments/assets/3ee3753c-72bc-45a3-a335-0f7d2a2bcc52)
 
 ## Chú thích
-Email gửi được thiết lập file email account
+Email gửi được thiết lập trong file email account
 
-Email nhận là email sinh viên nhập vào
+Email nhận là email sinh viên được nhập vào
+
+Protocol để gửi email là SMTP
 
 Sinh viên có gpa thấp được bôi đỏ trong list
 
