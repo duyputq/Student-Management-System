@@ -549,17 +549,20 @@ class Student:
                 messagebox.showerror("Error",f"Due to:{str(es)}",parent=self.root)
 
     def max_gpa(self):
+        #get cột điểm từ database
         grade = float(self.var_grade.get())
         credits = int(self.var_creadits.get())
         def convert_grade_to_gpa(average_grade):
             return average_grade*0.4
         gpa = convert_grade_to_gpa(grade)
 
+        #công thức tính gpa_max
         gpa_max = ((gpa*credits + 4*(141-credits) ))/141
 
 
         messagebox.showinfo("Success", f"GPA toi da la: {float(gpa_max)}", parent=self.root)
 
+        #phân loại bằng theo gpa
         if(gpa_max>=3.6):
             messagebox.showinfo("Success","Sinh vien nay co the dat bang xuat sac", parent=self.root)
         elif(gpa_max >= 3.2 and gpa_max <=3.6):

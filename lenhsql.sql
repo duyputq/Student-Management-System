@@ -16,3 +16,5 @@ INSERT INTO qlsv.student (Dep, StudentID, Name, Division, Gender, email ,DOB, Gr
 ('Telecomunication Engineering', '21021512' ,'Nguyễn Thị Như', 'Class2', 'Female','nhunguyen@gmail.com', '2002-05-26', 6.5 , 0.0 ,88, 'None'),
 ('Electrical Engineering', '21021513' ,'Lại Thị Như Quỳnh', 'Class1', 'Female','nhuquynh@gmail.com', '2002-05-27', 8.5 , 0.0 ,87, 'None')
 ;
+
+insert into ten-bang (key1, key2, key3) values ('value1','value2','value3')
